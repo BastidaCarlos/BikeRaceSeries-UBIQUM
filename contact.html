@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto Bike Race Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/brs_2.css">
 </head>
 <body>
@@ -12,7 +15,6 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <a href="index.html"><img src="assets/logo.webp" alt="Bike Race Series Logo"></a>
                     <a href="index.html" class="nav-title">Bikes, Pedals & Mountains</a>
                 </div>
                 <ul class="nav-menu">
@@ -23,7 +25,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html" class="active">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -32,24 +34,29 @@
     <!-- Contenido Principal -->
     <main>
         <section class="contact-section">
-            <h1 class="contact-title">
-                Contact
-            </h1>
             <div class="contact-content">
                 <div class="img-container">
                     <img src="assets/specialized.jpeg" alt="">
                 </div>
+            <h1 class="contact-title">
+                Contact
+            </h1>
                 <div class="contact-information">
+                    <div class="contact-logo">
+                        <img src="assets/logo.webp" alt="Bike Race Series Logo" class="information-logo">
+                    </div>
+                    <div class="contact-description">
                     <p class="contact-text">
                         Please email us at: <span class="email-contact">info@bpm.org</span> <br>
                         We will reply as quickly as we can.
                     </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
             <img src="assets/logo.webp" alt="Bike Races Series Logo" class="footer-logo">
             <p class="footer-description">&copy; 2026 Bikes, Pedals & Mountains. All rights reserved</p>
@@ -61,7 +68,7 @@
                     <a href="about.html">About</a>
                 </li>
                 <li class="link-item">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="active">Contact</a>
                 </li>
             </ul>
         </div>

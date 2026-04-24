@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Bike Race Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/brs_2.css">
 </head>
 <body>
@@ -12,7 +15,6 @@
      <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html"><img src="assets/logo.webp" alt="Bike Race Series Logo"></a>
                 <a href="index.html" class="nav-title">Bikes, Pedals & Mountains</a>
             </div>
             <ul class="nav-menu">
@@ -20,7 +22,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html">About</a>
+                    <a href="about.html" class="active">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html">Contact</a>
@@ -33,13 +35,16 @@
     <main>
         <section class="section about-section">
             <header class="about-header">
+                <img src="assets/road.webp" alt="Dirt Jump Race">
                 <h1 class="about-title">
                     About Bike Races Series
                 </h1>
-                <img src="assets/road.webp" alt="Dirt Jump Race">
             </header>
             <div class="about-description">
-                <div class="about-feature">
+                <div class="about-logo">
+                    <img src="assets/logo.webp" alt="Bike Race Series Logo">
+                </div>
+                <div class="mision-feature">
                     <h2 class="feature-title">
                         Mission
                     </h2>
@@ -48,7 +53,7 @@
                         "Mountain biking shouldn't just be for some freaks. Mountain biking should be for all freaks"
                     </p>
                 </div>
-                <div class="about-feature">
+                <div class="vision-feature">
                     <h2 class="feature-title">
                         Vision 
                     </h2>
@@ -56,11 +61,11 @@
                         The Bike Pedals and Mountains org aspires to organize trials and routes in all the mountains in Europe, available to amateur bikers that love travel and adventure.
                     </p>
                 </div>
-                <div class="about-feature">
+                <div class="general-feature">
                     <h2 class="feature-title">
                         General Information 
                     </h2>
-                    <p class="mission-text">
+                    <p class="general-text">
                         Bikes, Pedals and Mountains is an organization that promotes trials and routes for amateur bikers in different mountain around Europe. We want to organize two big events per year and organize many smaller events every month in differents parts of Europe. We have a network of associated bike clubs and we are growing our network.
                     </p>
                 </div>
@@ -68,7 +73,7 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
             <img src="assets/logo.webp" alt="Bike Races Series Logo" class="footer-logo">
             <p class="footer-description">&copy; 2026 Bikes, Pedals & Mountains. All rights reserved</p>
@@ -77,7 +82,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li class="link-item">
-                    <a href="about.html">About</a>
+                    <a href="about.html" class="active">About</a>
                 </li>
                 <li class="link-item">
                     <a href="contact.html">Contact</a>
