@@ -1,0 +1,248 @@
+/* Reseto basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos Generales Navbar y Footer */
+/* Estilos del navbar */
+.navbar {
+    padding: 20px 40px;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-title {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.active {
+    color: red !important;
+}
+
+/* Estilos del Footer */
+.footer {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+}
+
+.footer-description {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.link-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Estilos index.html */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    width: 100%;
+    height: 90vh;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 2rem;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.hero-img img {
+    width: 90%;
+    height: 90%;
+    border-radius: 1000px;
+}
+
+.events {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.date {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.event {
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* Estilos about.html */
+.about-header {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.about-header img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.about-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 2rem;
+}
+
+.about-description{
+    display: grid;
+    grid-template-areas: 
+    'logo mision'
+    'logo vision'
+    'logo general'
+    ;
+    max-width: 800px;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    text-align: justify;
+}
+
+.about-logo {
+    grid-area: logo;
+}
+
+.about-logo img {
+    border-radius: 500px;
+}
+
+.mision-feature {
+    grid-area: mision;
+}
+
+.vision-feature {
+    grid-area: vision;
+}
+
+.general-feature {
+    grid-area: general;
+}
+
+.feature-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2rem, 4.5vw, 2.2rem);
+}
+
+/* Estilos contact.html */
+
+.contact-title {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.contact-information {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-logo img {
+    width: 80%;
+    height: 80%;
+    border-radius: 500px;
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.email-contact {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
