@@ -189,7 +189,6 @@
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-family: var(--title-font);
     letter-spacing: 2px;
-    text-shadow: 0 0 20px rgba(255, 60, 0, 0.5);
  }
 
 .hero-container {
@@ -245,7 +244,6 @@
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-family: var(--title-font);
     letter-spacing: 2px;
-    text-shadow: 0 0 20px rgba(255, 60, 0, 0.5);
 }
 
 .about-description {
@@ -295,7 +293,6 @@
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-family: var(--title-font);
     letter-spacing: 2px;
-    text-shadow: 0 0 20px rgba(255, 60, 0, 0.5);
  }
 
  .contact-content {
