@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bike Race Series</title>
-    <link rel="stylesheet" href="styles/brs_2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/brs_3.css">
 </head>
 <body>
    <header>
@@ -15,52 +18,50 @@
                 <a href="index.html"><img src="assets/logo.webp" alt="Bike Race Series Logo"></a>
                 <a href="index.html" class="nav-title">Bikes, Pedals & Mountains</a>
             </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
      </nav>
    </header> 
    <!-- Contenido Principal -->
     <main>
         <section class="hero-section">
-            <div class="img-container">
+            <header class="img-container">
                 <img src="assets/dirtjumper.webp" alt="Next Races">
-            </div>
-            <div class="hero-container">
                 <h1 class="hero-title">Upcoming Events</h1>
-                <ul class="events">
-                    <li class="events-feature">
-                        February 12 <br>
-                        Board Meeting
-                    </li>
-                    <li class="events-feature">
-                        February 25 <br>
-                        Drivers Zoom Meeting 
-                    </li>
-                    <li class="events-feature">
-                        March 12 <br>
-                        First Event at THE PIRINEES!
-                    </li>
-                </ul>
+            </header>
+            <div class="hero-container">
+                <div class="card-event">
+                    <h2 class="event">Board Meeting</h2> 
+                    <p class="date">Frebuary 12</p>
+                </div>
+                <div class="card-event">
+                    <h2 class="event">Driver Zoom Meeting</h2> 
+                    <p class="date">Frebuary 25</p>
+                </div>
+                <div class="card-event">
+                    <h2 class="event">First Event at THE PIRINEES!</h2> 
+                    <p class="date">March 12</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
             <img src="assets/logo.webp" alt="Bike Races Series Logo" class="footer-logo">
             <p class="footer-description">&copy; 2026 Bikes, Pedals & Mountains. All rights reserved</p>
             <ul class="links">
                 <li class="link-item">
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li class="link-item">
                     <a href="about.html">About</a>
